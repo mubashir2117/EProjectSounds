@@ -1,0 +1,54 @@
+<svg width="420" height="110" viewBox="0 0 420 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lgCyanPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="55%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="lgPurplePink" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#FF2E7E"/>
+    </linearGradient>
+    <linearGradient id="lgDisc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14141F"/>
+      <stop offset="100%" stop-color="#07070D"/>
+    </linearGradient>
+    <radialGradient id="lgGlow" cx="30%" cy="30%" r="90%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.35"/>
+      <stop offset="45%" stop-color="#A78BFA" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="transparent" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Vinyl record -->
+  <g transform="translate(55,55)">
+    <!-- glow -->
+    <circle r="46" fill="url(#lgGlow)"/>
+    <!-- outer disc -->
+    <circle r="42" fill="url(#lgDisc)" stroke="url(#lgCyanPurple)" stroke-width="2"/>
+    <!-- grooves -->
+    <circle r="36" fill="none" stroke="#00E5FF" stroke-opacity="0.22" stroke-width="1"/>
+    <circle r="31" fill="none" stroke="#A78BFA" stroke-opacity="0.25" stroke-width="1"/>
+    <circle r="26" fill="none" stroke="#00E5FF" stroke-opacity="0.18" stroke-width="1"/>
+    <circle r="21" fill="none" stroke="#A78BFA" stroke-opacity="0.22" stroke-width="1"/>
+    <circle r="16" fill="none" stroke="#00E5FF" stroke-opacity="0.15" stroke-width="1"/>
+    <!-- label -->
+    <circle r="13" fill="url(#lgCyanPurple)"/>
+    <!-- label ring -->
+    <circle r="13" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="0.8"/>
+    <!-- spindle -->
+    <circle r="2.4" fill="#07070D" stroke="#FFFFFF" stroke-opacity="0.6" stroke-width="0.8"/>
+    <!-- reflection sweep -->
+    <path d="M -20 -36 A 42 42 0 0 1 20 -37 L 15 -34 A 36 36 0 0 0 -18 -31 Z" fill="#FFFFFF" fill-opacity="0.06"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g font-family="'Poppins','Josefin Sans',sans-serif" font-weight="700" letter-spacing="2">
+    <text x="118" y="42" font-size="15" fill="#00E5FF" font-weight="600" letter-spacing="6">YOUR VOICE</text>
+    <text x="118" y="68" font-size="26" fill="url(#lgCyanPurple)" letter-spacing="3">ON THE</text>
+    <text x="118" y="96" font-size="30" fill="url(#lgPurplePink)" letter-spacing="3">MARK</text>
+    <!-- accent underline -->
+    <line x1="120" y1="104" x2="400" y2="104" stroke="url(#lgCyanPurple)" stroke-width="2" stroke-linecap="round"/>
+    <line x1="120" y1="104" x2="240" y2="104" stroke="#00E5FF" stroke-width="2" stroke-linecap="round" filter="url(#nofilter)"/>
+  </g>
+</svg>
