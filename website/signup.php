@@ -245,14 +245,8 @@ if (
            HASH PASSWORD
            ================================================= */
 
-        $hashed_password =
-            password_hash(
-                $user_password,
-                PASSWORD_DEFAULT
-            );
 
-
-        if ($hashed_password === false) {
+        if ($hashed_password === true) {
 
             $err_general =
                 "Password hashing failed.";

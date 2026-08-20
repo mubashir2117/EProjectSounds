@@ -1,5 +1,5 @@
 <?php
-session_start();
+if (session_status() === PHP_SESSION_NONE) session_start();
 @include_once "config.php";
 $page = isset($page) ? $page : '';
 ?>
@@ -17,7 +17,7 @@ $page = isset($page) ? $page : '';
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- Bootstrap 5 grid -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -37,6 +37,19 @@ $page = isset($page) ? $page : '';
     <!-- CUSTOM CURSOR -->
     <div class="cursor-dot" aria-hidden="true"></div>
     <div class="cursor-ring" aria-hidden="true"></div>
+    <div class="cursor-label" aria-hidden="true"></div>
+
+    <!-- THREE.JS CINEMATIC WORLD -->
+    <div class="world-canvas" id="worldCanvas" aria-hidden="true"></div>
+
+    <!-- PAGE TRANSITION OVERLAY -->
+    <div class="page-transition" id="pageTransition" aria-hidden="true">
+        <div class="pt-curtain"></div>
+        <div class="pt-streak"></div>
+        <div class="pt-stage" aria-hidden="true">
+            <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+        </div>
+    </div>
 
     <!-- AMBIENT BACKGROUND -->
     <div class="bg-aurora" aria-hidden="true">

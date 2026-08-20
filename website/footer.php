@@ -1,4 +1,7 @@
 <footer class="site-footer">
+    <div class="footer-wave" aria-hidden="true">
+        <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+    </div>
     <div class="footer-aurora" aria-hidden="true"></div>
 
     <div class="container footer-inner">
@@ -90,6 +93,8 @@
     <span class="toast-msg">Message sent successfully!</span>
 </div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="js/world.js"></script>
 <script src="js/index.js"></script>
 </body>
 </html>

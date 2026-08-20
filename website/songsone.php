@@ -29,12 +29,12 @@ if (isset($_SESSION['role']) && $_SESSION['role'] == 2) {
                         <article class="song-card hoverable">
                             <span class="rank-badge">#<em><?php echo str_pad($rank, 2, '0', STR_PAD_LEFT); ?></em></span>
                             <div class="song-art">
-                                <img src="../<?php echo htmlspecialchars($data["song_image"]); ?>"
-                                     onerror="this.onerror=null;this.src='../images/img.jpg';"
+                                <img src="<?php echo htmlspecialchars($data["song_image"]); ?>"
+                                     onerror="this.onerror=null;this.src='images/img.jpg';"
                                      alt="<?php echo htmlspecialchars($data["song_name"]); ?> album art">
                                 <div class="song-art-shade"></div>
                                 <div class="song-wave"><i></i><i></i><i></i><i></i><i></i></div>
-                                <button class="song-play" data-audio="../<?php echo htmlspecialchars($data["song_file"]); ?>" aria-label="Play <?php echo htmlspecialchars($data["song_name"]); ?>">
+                                <button class="song-play" data-audio="<?php echo htmlspecialchars($data["song_file"]); ?>" aria-label="Play <?php echo htmlspecialchars($data["song_name"]); ?>">
                                     <svg class="ic-play" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
                                     <svg class="ic-pause" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
                                 </button>

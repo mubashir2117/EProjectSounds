@@ -14,7 +14,10 @@ if (isset($_SESSION['role']) && $_SESSION['role'] == 2) {
     </section>
 
     <!-- VIDEOS GRID -->
-    <section class="section" style="padding-top:10px;">
+    <section class="section showcase" style="padding-top:10px;">
+        <div class="showcase-bg" aria-hidden="true">
+            <video muted loop playsinline preload="none"></video>
+        </div>
         <div class="container">
             <div class="row g-4">
                 <?php

@@ -7,8 +7,8 @@
     <div class="hero-inner">
         <div class="hero-eyebrow"><span class="eyebrow-dot"></span> Premium music &amp; video streaming</div>
         <h1 class="hero-title">
-            Your Voice.<br>
-            <span class="grad-text">On The Mark.</span>
+            <span class="line"><span class="line-inner">Your Voice.</span></span>
+            <span class="line"><span class="line-inner grad-anim">On The Mark.</span></span>
         </h1>
         <p class="hero-sub">
             Stream cinematic sound &amp; visuals built for artists and loved by listeners.
@@ -71,10 +71,10 @@
                 <article class="song-card hoverable">
                     <span class="rank-badge">#<em>01</em></span>
                     <div class="song-art">
-                        <img src="../images/mjht.jpg" alt="Mujhe Pyar Hua Tha album art">
+                        <img src="images/mjht.jpg" alt="Mujhe Pyar Hua Tha album art">
                         <div class="song-art-shade"></div>
                         <div class="song-wave"><i></i><i></i><i></i><i></i><i></i></div>
-                        <button class="song-play" data-audio="../audio/Mujhe Pyaar Hua Tha Song Kaifi Khalil.mp3" aria-label="Play Mujhe Pyar Hua Tha">
+                        <button class="song-play" data-audio="audio/Mujhe Pyaar Hua Tha Song Kaifi Khalil.mp3" aria-label="Play Mujhe Pyar Hua Tha">
                             <svg class="ic-play" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
                             <svg class="ic-pause" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
                         </button>
@@ -94,10 +94,10 @@
                 <article class="song-card hoverable">
                     <span class="rank-badge">#<em>02</em></span>
                     <div class="song-art">
-                        <img src="../images/tu hi kahan.jpg" alt="Tu Hai Kahan album art">
+                        <img src="images/tu hi kahan.jpg" alt="Tu Hai Kahan album art">
                         <div class="song-art-shade"></div>
                         <div class="song-wave"><i></i><i></i><i></i><i></i><i></i></div>
-                        <button class="song-play" data-audio="../audio/Tu-Hai-Kahan.mp3" aria-label="Play Tu Hai Kahan">
+                        <button class="song-play" data-audio="audio/Tu-Hai-Kahan.mp3" aria-label="Play Tu Hai Kahan">
                             <svg class="ic-play" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
                             <svg class="ic-pause" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
                         </button>
@@ -117,10 +117,10 @@
                 <article class="song-card hoverable">
                     <span class="rank-badge">#<em>03</em></span>
                     <div class="song-art">
-                        <img src="../images/habibi.jpg" alt="Habibi album art">
+                        <img src="images/habibi.jpg" alt="Habibi album art">
                         <div class="song-art-shade"></div>
                         <div class="song-wave"><i></i><i></i><i></i><i></i><i></i></div>
-                        <button class="song-play" data-audio="../audio/Habibi.mp3" aria-label="Play Habibi">
+                        <button class="song-play" data-audio="audio/Habibi.mp3" aria-label="Play Habibi">
                             <svg class="ic-play" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
                             <svg class="ic-pause" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
                         </button>
@@ -140,10 +140,10 @@
                 <article class="song-card hoverable">
                     <span class="rank-badge">#<em>04</em></span>
                     <div class="song-art">
-                        <img src="../images/jhoom.jpg" alt="Jhoom album art">
+                        <img src="images/jhoom.jpg" alt="Jhoom album art">
                         <div class="song-art-shade"></div>
                         <div class="song-wave"><i></i><i></i><i></i><i></i><i></i></div>
-                        <button class="song-play" data-audio="../audio/Jhoom (Remix) Song Ali Zafar.mp3" aria-label="Play Jhoom">
+                        <button class="song-play" data-audio="audio/Jhoom (Remix) Song Ali Zafar.mp3" aria-label="Play Jhoom">
                             <svg class="ic-play" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
                             <svg class="ic-pause" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
                         </button>
@@ -163,10 +163,10 @@
                 <article class="song-card hoverable">
                     <span class="rank-badge">#<em>05</em></span>
                     <div class="song-art">
-                        <img src="../images/tera hawale.jpg" alt="Tere Hawaale album art">
+                        <img src="images/tera hawale.jpg" alt="Tere Hawaale album art">
                         <div class="song-art-shade"></div>
                         <div class="song-wave"><i></i><i></i><i></i><i></i><i></i></div>
-                        <button class="song-play" data-audio="../audio/Tere Hawaale.mp3" aria-label="Play Tere Hawaale">
+                        <button class="song-play" data-audio="audio/Tere Hawaale.mp3" aria-label="Play Tere Hawaale">
                             <svg class="ic-play" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
                             <svg class="ic-pause" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
                         </button>
@@ -186,10 +186,10 @@
                 <article class="song-card hoverable">
                     <span class="rank-badge">#<em>06</em></span>
                     <div class="song-art">
-                        <img src="../images/kesariya.jpg" alt="Kesariya album art">
+                        <img src="images/kesariya.jpg" alt="Kesariya album art">
                         <div class="song-art-shade"></div>
                         <div class="song-wave"><i></i><i></i><i></i><i></i><i></i></div>
-                        <button class="song-play" data-audio="../audio/Kesariya.mp3" aria-label="Play Kesariya">
+                        <button class="song-play" data-audio="audio/Kesariya.mp3" aria-label="Play Kesariya">
                             <svg class="ic-play" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
                             <svg class="ic-pause" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
                         </button>
@@ -209,10 +209,10 @@
                 <article class="song-card hoverable">
                     <span class="rank-badge">#<em>07</em></span>
                     <div class="song-art">
-                        <img src="../images/zindagi.jpg" alt="Zindagi album art">
+                        <img src="images/zindagi.jpg" alt="Zindagi album art">
                         <div class="song-art-shade"></div>
                         <div class="song-wave"><i></i><i></i><i></i><i></i><i></i></div>
-                        <button class="song-play" data-audio="../audio/Zindagi Atif Aslam 2023 Qateel Shifai.mp3" aria-label="Play Zindagi">
+                        <button class="song-play" data-audio="audio/Zindagi Atif Aslam 2023 Qateel Shifai.mp3" aria-label="Play Zindagi">
                             <svg class="ic-play" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
                             <svg class="ic-pause" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
                         </button>
@@ -232,10 +232,10 @@
                 <article class="song-card hoverable">
                     <span class="rank-badge">#<em>08</em></span>
                     <div class="song-art">
-                        <img src="../images/jo tu na mila.jpg" alt="Jo Tu Na Mila album art">
+                        <img src="images/jo tu na mila.jpg" alt="Jo Tu Na Mila album art">
                         <div class="song-art-shade"></div>
                         <div class="song-wave"><i></i><i></i><i></i><i></i><i></i></div>
-                        <button class="song-play" data-audio="../audio/Jo tu na Mila 20 Song By Asim Azhar.mp3" aria-label="Play Jo Tu Na Mila">
+                        <button class="song-play" data-audio="audio/Jo tu na Mila 20 Song By Asim Azhar.mp3" aria-label="Play Jo Tu Na Mila">
                             <svg class="ic-play" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
                             <svg class="ic-pause" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
                         </button>
@@ -257,6 +257,9 @@
 
 <!-- ============ VIDEO SHOWCASE ============ -->
 <section class="section showcase" id="showcase">
+    <div class="showcase-bg" aria-hidden="true">
+        <video muted loop playsinline preload="none"></video>
+    </div>
     <div class="container">
         <div class="section-head" data-reveal>
             <span class="section-eyebrow">The Screen</span>
@@ -271,8 +274,8 @@
         <div class="row g-4">
 
             <div class="col-12 col-sm-6 col-lg-3" data-reveal>
-                <article class="video-card hoverable" data-video="../images/AFSANAY.mp4" data-title="Afsanay" data-artist="Kaifi Khalil">
-                    <video src="../images/AFSANAY.mp4" muted playsinline preload="metadata"></video>
+                <article class="video-card hoverable" data-video="images/AFSANAY.mp4" data-title="Afsanay" data-artist="Kaifi Khalil">
+                    <video src="images/AFSANAY.mp4" muted playsinline preload="metadata"></video>
                     <div class="video-shade"></div>
                     <span class="rank-badge video-top">HD</span>
                     <button class="video-play" aria-label="Play video">
@@ -289,8 +292,8 @@
             </div>
 
             <div class="col-12 col-sm-6 col-lg-3" data-reveal>
-                <article class="video-card hoverable" data-video="../images/Ali zafar.mp4" data-title="Ve Mahiya" data-artist="Ali Zafar">
-                    <video src="../images/Ali zafar.mp4" muted playsinline preload="metadata"></video>
+                <article class="video-card hoverable" data-video="images/Ali zafar.mp4" data-title="Ve Mahiya" data-artist="Ali Zafar">
+                    <video src="images/Ali zafar.mp4" muted playsinline preload="metadata"></video>
                     <div class="video-shade"></div>
                     <span class="rank-badge video-top">HD</span>
                     <button class="video-play" aria-label="Play video">
@@ -307,8 +310,8 @@
             </div>
 
             <div class="col-12 col-sm-6 col-lg-3" data-reveal>
-                <article class="video-card hoverable" data-video="../images/Asim Azhar1.mp4" data-title="Dard" data-artist="Asim Azhar">
-                    <video src="../images/Asim Azhar1.mp4" muted playsinline preload="metadata"></video>
+                <article class="video-card hoverable" data-video="images/Asim Azhar1.mp4" data-title="Dard" data-artist="Asim Azhar">
+                    <video src="images/Asim Azhar1.mp4" muted playsinline preload="metadata"></video>
                     <div class="video-shade"></div>
                     <span class="rank-badge video-top">HD</span>
                     <button class="video-play" aria-label="Play video">
@@ -325,8 +328,8 @@
             </div>
 
             <div class="col-12 col-sm-6 col-lg-3" data-reveal>
-                <article class="video-card hoverable" data-video="../images/Asim Azhar2.mp4" data-title="Bulleya" data-artist="Asim Azhar">
-                    <video src="../images/Asim Azhar2.mp4" muted playsinline preload="metadata"></video>
+                <article class="video-card hoverable" data-video="images/Asim Azhar2.mp4" data-title="Bulleya" data-artist="Asim Azhar">
+                    <video src="images/Asim Azhar2.mp4" muted playsinline preload="metadata"></video>
                     <div class="video-shade"></div>
                     <span class="rank-badge video-top">HD</span>
                     <button class="video-play" aria-label="Play video">
@@ -343,8 +346,8 @@
             </div>
 
             <div class="col-12 col-sm-6 col-lg-3" data-reveal>
-                <article class="video-card hoverable" data-video="../images/Kaifi khalil 1.mp4" data-title="Kahani Suno 2.0" data-artist="Kaifi Khalil">
-                    <video src="../images/Kaifi khalil 1.mp4" muted playsinline preload="metadata"></video>
+                <article class="video-card hoverable" data-video="images/Kaifi khalil 1.mp4" data-title="Kahani Suno 2.0" data-artist="Kaifi Khalil">
+                    <video src="images/Kaifi khalil 1.mp4" muted playsinline preload="metadata"></video>
                     <div class="video-shade"></div>
                     <span class="rank-badge video-top">HD</span>
                     <button class="video-play" aria-label="Play video">
@@ -361,8 +364,8 @@
             </div>
 
             <div class="col-12 col-sm-6 col-lg-3" data-reveal>
-                <article class="video-card hoverable" data-video="../images/Kaifi khalil 2.mp4" data-title="Mansoob" data-artist="Kaifi Khalil">
-                    <video src="../images/Kaifi khalil 2.mp4" muted playsinline preload="metadata"></video>
+                <article class="video-card hoverable" data-video="images/Kaifi khalil 2.mp4" data-title="Mansoob" data-artist="Kaifi Khalil">
+                    <video src="images/Kaifi khalil 2.mp4" muted playsinline preload="metadata"></video>
                     <div class="video-shade"></div>
                     <span class="rank-badge video-top">HD</span>
                     <button class="video-play" aria-label="Play video">
@@ -379,8 +382,8 @@
             </div>
 
             <div class="col-12 col-sm-6 col-lg-3" data-reveal>
-                <article class="video-card hoverable" data-video="../images/Ali zafar 2.mp4" data-title="Larsha Pekhawar" data-artist="Ali Zafar">
-                    <video src="../images/Ali zafar 2.mp4" muted playsinline preload="metadata"></video>
+                <article class="video-card hoverable" data-video="images/Ali zafar 2.mp4" data-title="Larsha Pekhawar" data-artist="Ali Zafar">
+                    <video src="images/Ali zafar 2.mp4" muted playsinline preload="metadata"></video>
                     <div class="video-shade"></div>
                     <span class="rank-badge video-top">HD</span>
                     <button class="video-play" aria-label="Play video">
@@ -397,8 +400,8 @@
             </div>
 
             <div class="col-12 col-sm-6 col-lg-3" data-reveal>
-                <article class="video-card hoverable" data-video="../images/BRAHMASTRA.mp4" data-title="Kesariya" data-artist="Arijit Singh">
-                    <video src="../images/BRAHMASTRA.mp4" muted playsinline preload="metadata"></video>
+                <article class="video-card hoverable" data-video="images/BRAHMASTRA.mp4" data-title="Kesariya" data-artist="Arijit Singh">
+                    <video src="images/BRAHMASTRA.mp4" muted playsinline preload="metadata"></video>
                     <div class="video-shade"></div>
                     <span class="rank-badge video-top">HD</span>
                     <button class="video-play" aria-label="Play video">
@@ -473,6 +476,7 @@
 
 <!-- ============ CONTACT ============ -->
 <section class="section contact" id="contact">
+    <div class="contact-glow" aria-hidden="true"></div>
     <div class="container">
         <div class="section-head" data-reveal>
             <span class="section-eyebrow">Get In Touch</span>
@@ -502,7 +506,7 @@
                         </div>
                         <div>
                             <div class="info-label">Studio</div>
-                            <div class="info-value">The Mark Studio, Gulberg, Lahore</div>
+                            <div class="info-value">The Mark Studio, NN, Karachi</div>
                         </div>
                     </div>
 
